@@ -1,0 +1,4 @@
+﻿  Source.cpp
+c:\users\rhump\documents\visual studio 2015\projects\ch2-7\ch2-7\source.cpp(7): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  Ch2-7.vcxproj -> c:\users\rhump\documents\visual studio 2015\Projects\Ch2-7\Debug\Ch2-7.exe
+  Ch2-7.vcxproj -> c:\users\rhump\documents\visual studio 2015\Projects\Ch2-7\Debug\Ch2-7.pdb (Partial PDB)

@@ -1,0 +1,4 @@
+﻿  Source.cpp
+c:\users\rhump\documents\visual studio 2015\projects\ch2-5\ch2-5\source.cpp(23): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+  Ch2-5.vcxproj -> c:\users\rhump\documents\visual studio 2015\Projects\Ch2-5\Debug\Ch2-5.exe
+  Ch2-5.vcxproj -> c:\users\rhump\documents\visual studio 2015\Projects\Ch2-5\Debug\Ch2-5.pdb (Partial PDB)

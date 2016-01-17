@@ -1,0 +1,49 @@
+1) What are the modules of C++ programs called?
+	- the modules of C++ are called functions
+	
+2) What does the following preprocessor directive do:
+			#include <iostream>
+	- it places the iostream file into the code at that location, allowing the use
+	   of its contents
+	   
+3) What does the following statement do:
+			using namespace std;
+	- it allows either the whole program, or the one function (depending on its location)
+	  the use of the std namespace, so that part of the program assumes std:: for all relevant things
+	  
+4) What statement would you use to print the phrase "Hello, world" and then start a new line?
+	-cout << "Hello, world" << endl; OR cout << "Hello, world\n";
+	
+5) What statement would you use to create an integer variable with the name 'cheese'?
+	- int cheese;
+	
+6) What statement would you use to assign the value 32 to the variable 'cheese'?
+	- cheese = 32;
+	
+7) What statement would you use to read a value from keyboard input into the variable 'cheese'?
+	- cin >> cheese;
+	
+8) What statement would you use to print "We have X varieties of cheese." where the current
+	value of 'cheese' replaces 'X'?
+	- cout << "We have " << cheese << " varieties of cheese.";
+	
+9) What do te following prototypes tell you about each function?
+			a) int froop(double t);
+			b) void rattle(int n);
+			c) int prune(void);
+	-a) function takes in an argument that is a double, and returns an int
+	-b) function takes in an argument that is an int, and returns nothing
+	-c) function takes no argument and returns an int
+	
+10) When do you not have to use the keyboard 'return' when you define a function?
+	-'return' is not needed when the function is 'void', as it returns nothing, OR in the
+	 'main()' function, as it is assumed a 'return 0;' at the end if it is ommited
+	 
+11) Suppose your 'main()' function has the following line:
+			cout << "Please enter your PIN: ";
+	And suppose your compiler complains that 'cout' is an unknown identifier. What is the
+	most likely cause of this problem, and what are three ways to fix it?
+	- The most common error is a problem with either the ommision of '#include <iostream>' or with
+	  the namespace. You can include '#include <iostream>' if it abscent and to fix namespace issues
+	  you can put 'using namespace std;' either before main or in the function that cout is in. Lastly, 
+	  you can just put replace 'cout' with 'std::cout'.
